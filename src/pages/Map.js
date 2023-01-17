@@ -55,7 +55,8 @@ const Forecast = (props) => {
   };
   
   let defaultIcon = L.icon({
-    iconUrl:"https://unpkg.com/leaflet@1.6/dist/images/marker-icon.png"
+    iconUrl:"https://unpkg.com/leaflet@1.6/dist/images/marker-icon.png",
+    iconSize:[10,10]
   })
   L.Marker.prototype.options.icon = defaultIcon
   export default Forecast;
