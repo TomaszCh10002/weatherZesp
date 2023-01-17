@@ -1,0 +1,153 @@
+@import url("~leaflet/dist/leaflet.css");
+
+body{
+  background-color: rgb(70, 80, 90);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code{
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-container {
+  position:relative;
+  top:-20px;
+  left:25%;
+  width: 50%;
+  height:30vh;
+}
+.map{
+  position:relative;
+  width: 100%;
+
+}
+.daddy2{
+  position:relative;
+  top:20px;
+  
+}
+.daddy2 .baby2{
+  position:relative;
+  top:-46px;
+  background-color: rgb(70, 80, 90);
+  border-color: rgb(40,50,60);
+  text-align-last:center;
+  border-radius:0px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom: 5px;
+  display: block;
+  display: inline-block;
+  width: 227px;
+}
+.daddy1 {
+  position:relative;
+  top:25px;
+
+}
+.daddy1 .baby1{
+  position:relative;
+  top:-55px;
+  background-color: rgb(70, 80, 90);
+  border-color: rgb(40,50,60);
+  text-align-last:center;
+  padding-top: 1px;
+  display: block;
+  display: inline-block;
+  width:150px;
+}
+
+#sercz {
+  position:relative;
+  text-align:center;
+  width: 500px;
+  top:-30px;
+  margin-top: 1px;
+  background-color: rgb(120, 200, 255);
+  color: rgb(0, 0, 0);
+}
+#outlined-basic {
+  
+  color: rgb(0, 0, 0);
+  padding-top: 1px;
+
+  
+}
+
+.wylo{
+  position:relative;
+  top:7px;
+  left:450px;
+  border-color: rgb(40,50,60);
+  background-color: rgb(110, 80, 90);
+}
+
+.loginfo {
+  background-color: rgb(40,50,60);
+  border-color: rgb(60,70,80);
+}
+
+.logbutton {
+  background-color: rgb(90,100,110);
+  border-color: rgb(70,80,90);
+}
+
+
+.logdif{
+position:absolute;
+top:6vh;
+bottom:15%;
+left:15%;
+right:15%;
+width:70%;
+height:70%;
+
+}
+
+
+
+
+
+
+
+.lolw1 {
+  position: relative;
+  top:-27px;
+  left: -160px;
+  width: 25px;
+  height: 25px;
+}
+.lolw2 {
+  position: relative;
+  top:-27px;
+  left: -35px;
+  width: 25px;
+  height: 25px;
+}
+.lolw3 {
+  position: relative;
+  top:-27px;
+  left: 85px;
+  width: 25px;
+  height: 25px;
+}
+.lolw4 {
+  position: relative;
+  top:-27px;
+  left: 210px;
+  width: 25px;
+  height: 25px;
+}
+.lolw5 {
+  position: relative;
+  top:-27px;
+  left: 335px;
+  width: 25px;
+  height: 25px;
+}
